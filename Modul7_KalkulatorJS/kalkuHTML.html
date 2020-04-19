@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kalkulator</title>
+    <!-- menghubungkan file HTML dengan CSS-->
+    <link rel="stylesheet" href="kalku.css">
+</head>
+<body>
+    <!--
+        Kelompok DEN
+        I Putu Denny Indra Putra (1708561013, A)
+        I Gede Teguh Satya Dharma (1708561019, A)
+        Yuriko Christian (1708561022, A)
+        ===================================
+        Pemrograman Berbasis Web
+    -->
+    <div class="kalku">
+        <h1>Program Kalkulator</h1>
+            <!-- Membuat textbox sebagai input bilangan pertama-->
+            <input type="text" name="tb01" placeholder="Bilangan pertama" class="inputMe" id="angkaSatu">
+            <br> <!--Spasi-->
+            <!-- Membuat textbox sebagai input bilangan kedua-->
+            <input type="text" name="tb02" placeholder="Bilangan kedua" class="inputMe" id="angkaDua" >
+            <div class="oper">
+                <!-- Membuat tombol dengan nilai "+" yangmana jika tombol ini diklik nilainya akan dibawa ke fungsi tambah() dalam file javascript "kalku.js"-->
+                <button class="operand" onclick="tambah()">
+                    +
+                </button>
+                <!-- Membuat tombol dengan nilai "-" yangmana jika tombol ini diklik nilainya akan dibawa ke fungsi kurang() dalam file javascript "kalku.js"-->
+                <button class="operand" onclick="kurang()">
+                    -
+                </button>
+                <!-- Membuat tombol dengan nilai "*" yangmana jika tombol ini diklik nilainya akan dibawa ke fungsi kali() dalam file javascript "kalku.js"-->
+                <button class="operand" onclick="kali()">
+                    *
+                </button>
+                <!-- Membuat tombol dengan nilai "/" yangmana jika tombol ini diklik nilainya akan dibawa ke fungsi bagi() dalam file javascript "kalku.js"-->
+                <button class="operand" onclick="bagi()">
+                    /
+                </button>
+            </div>
+            <!-- Membuat tombol yang berfungsi untuk me-reset textbox 1 dan 2 serta tulisan hasil"-->
+            <button class="rest" onclick="resetButton()">
+                Reset
+            </button>
+            <!--Menulis hasil operasi-->
+            <h3 id="result">Hasil : </h3>
+       
+
+        
+    </div>
+    <!-- Menghubungkan file HTML dengan JS-->
+    <script src="kalku.js"></script>
+</body>
+</html>

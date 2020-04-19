@@ -1,0 +1,13 @@
+/* Mengganti seluruh font yang terdapat pada elemen Body dengan Arial atau Helvetica atau Sans-serif (Sesuai kebutuhan browser)*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Memodifikasi panjang dan lebar input*/
+
+.inputMe{
+    width: 200px;
+    height: 30px;
+}
