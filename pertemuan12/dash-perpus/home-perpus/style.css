@@ -1,0 +1,28 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 5px;
+}
+
+#myInput{
+    width: 100%;
+    padding: 10px;
+    border-radius: 1 rem;
+    margin-right: 20px;
+}
+
+td, th{
+    border: 1px solid #cccccc;
+    padding: 10px;
+    margin: auto;
+
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th{
+    font-weight: bold;
+    text-transform: uppercase;
+}
